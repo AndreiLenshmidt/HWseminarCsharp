@@ -3,39 +3,39 @@
 
 // using System;
 
-// namespace ConsoleApp1
-// {
-//     class Power
-//     {
-//         static double numberInPower(double number, double power)
-//         {
-//             double result = 1;
+namespace ConsoleApp1
+{
+    class Power
+    {
+        static double numberInPower(double number, int power)
+        {
+            double result = 1;
 
-//             for(int i = 0; i < power; i++)
-//             {
-//                 result = number*result;
-//             }
+            for(int i = 0; i < power; i++)
+            {
+                result = number*result;
+            }
 
-//             if (power < 0)
-//                 {
-//                 Console.WriteLine("Ошибка степень числа Pow не является натуральным числом");
-//                 return -1;
-//                 }
+            if (power < 0)
+                {
+                Console.WriteLine("Ошибка степень числа Pow не является натуральным числом");
+                return -1;
+                }
 
-//             return result;
-//         }
-//         static void Main(string[] args)
-//         {
-//             Console.Write($"Введите число Num = ");
-//             double num = Convert.ToDouble(Console.ReadLine());
+            return result;
+        }
+        static void Main(string[] args)
+        {
+            Console.Write($"Введите число Num = ");
+            double num = Convert.ToDouble(Console.ReadLine());
             
-//             Console.Write($"Введите степень числа Pow = ");
-//             double pow = Convert.ToDouble(Console.ReadLine());
+            Console.Write($"Введите степень числа Pow = ");
+            int pow = Convert.ToInt32(Console.ReadLine());
 
-//             Console.WriteLine($"Число {num} в степени {pow} равно {numberInPower(num, pow)}");
-//         }      
-//     }
-// }
+            Console.WriteLine($"Число {num} в степени {pow} равно {numberInPower(num, pow)}");
+        }      
+    }
+}
 
 // // Задача 27: Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе.
 
