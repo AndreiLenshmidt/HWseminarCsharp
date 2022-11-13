@@ -9,7 +9,7 @@
     return myArray;
 }
 
-double [] CreateRandomDobleArray (int size)
+double [] CreateRandomDoubleArray (int size)
 {
     double [] myArray = new double [size];
     
