@@ -9,9 +9,9 @@
 //     return myArray;
 // }
 
-// double [] CreateRandomDoubleArray (int size)
-// {
-//     double [] myArray = new double [size];
+double [] CreateRandomDoubleArray (int size)
+{
+    double [] myArray = new double [size];
     
 //     for (int i = 0; i < size; i++)
 //     {
