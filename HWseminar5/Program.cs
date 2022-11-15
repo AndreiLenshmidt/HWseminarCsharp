@@ -1,39 +1,39 @@
-﻿int [] CreateRandomArray (int size, int minValue, int maxValue)
-{
-    int [] myArray = new int [size];
+﻿// int [] CreateRandomArray (int size, int minValue, int maxValue)
+// {
+//     int [] myArray = new int [size];
     
-    for (int i = 0; i < size; i++)
-    {
-        myArray[i] = new Random().Next(minValue, maxValue+1);
-    }
-    return myArray;
-}
+//     for (int i = 0; i < size; i++)
+//     {
+//         myArray[i] = new Random().Next(minValue, maxValue+1);
+//     }
+//     return myArray;
+// }
 
-double [] CreateRandomDobleArray (int size)
-{
-    double [] myArray = new double [size];
+// double [] CreateRandomDoubleArray (int size)
+// {
+//     double [] myArray = new double [size];
     
-    for (int i = 0; i < size; i++)
-    {
-        double random = new Random().NextDouble() * new Random().Next(Int16.MinValue, Int16.MaxValue);
-        myArray[i] = Math.Round(random, 2);
-    }
-    return myArray;
-}
+//     for (int i = 0; i < size; i++)
+//     {
+//         double random = new Random().NextDouble() * new Random().Next(Int16.MinValue, Int16.MaxValue);
+//         myArray[i] = Math.Round(random, 2);
+//     }
+//     return myArray;
+// }
 
-void PrintArray (int [] array)
-{
-    for (int i=0; i < array.Length; i++)
-        Console.Write(array[i] + " ");
-    Console.WriteLine();
-}
+// void PrintArray (int [] array)
+// {
+//     for (int i=0; i < array.Length; i++)
+//         Console.Write(array[i] + " ");
+//     Console.WriteLine();
+// }
 
-void PrintDoubleArray (double [] array)
-{
-    for (int i=0; i < array.Length; i++)
-        Console.Write(array[i] + " ");
-    Console.WriteLine();
-}
+// void PrintDoubleArray (double [] array)
+// {
+//     for (int i=0; i < array.Length; i++)
+//         Console.Write(array[i] + " ");
+//     Console.WriteLine();
+// }
 
 
 // Задача1 - Задайте массив заполненный случайными положительными трёхзначными числами. Напишите программу, 
